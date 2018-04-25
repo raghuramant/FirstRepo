@@ -25,7 +25,8 @@ public class StepDefFacebook {
 		driver.findElement(By.xpath("//input[@value = 'Log In']")).click();
 		
 	}
-
+	
+	
 	@Then("^user clicks the login button$")
 	public void user_clicks_the_login_button() throws Throwable {
 		driver.findElement(By.xpath("//input[@value = 'Log In']")).click();
