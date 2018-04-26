@@ -20,6 +20,7 @@ public class StepDefFacebook {
 
 	@When("^user enter the credentials$")
 	public void user_enter_the_credentials() throws Throwable {
+		System.out.println("when logic");
 		driver.findElement(By.id("email")).sendKeys("fedfadf");
 		driver.findElement(By.id("pass")).sendKeys("dfdsfsdf");
 		driver.findElement(By.xpath("//input[@value = 'Log In']")).click();
